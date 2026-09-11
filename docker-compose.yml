@@ -1,0 +1,10 @@
+services:
+ postgres:
+  image: postgres:16
+  environment:
+   POSTGRES_DB: financeflow
+   POSTGRES_USER: financeflow
+   POSTGRES_PASSWORD: financeflow
+  ports: ['5434:5432']
+  volumes: [financeflow-data:/var/lib/postgresql/data]
+volumes: {financeflow-data: {}}

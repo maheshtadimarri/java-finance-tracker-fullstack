@@ -1,0 +1,1 @@
+create table transactions(id bigserial primary key,type varchar(30) not null,category varchar(100) not null,amount numeric(12,2) not null,date date not null,note varchar(500));create table budgets(id bigserial primary key,category varchar(100) not null,limit_amount numeric(12,2) not null,month varchar(7));

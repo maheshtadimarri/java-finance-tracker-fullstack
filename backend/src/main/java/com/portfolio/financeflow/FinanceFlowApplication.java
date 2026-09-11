@@ -1,0 +1,1 @@
+package com.portfolio.financeflow;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;@SpringBootApplication public class FinanceFlowApplication{public static void main(String[]a){SpringApplication.run(FinanceFlowApplication.class,a);}}
